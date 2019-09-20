@@ -19,10 +19,10 @@ public class Zadanie_1 {
         while (randomNumber != userNumber) {
             userNumber = ReadSystemConsole.readPositiveInt(scanner, "Zgadnij liczbę");
             if (userNumber > randomNumber) {
-                System.out.println("Za mało!");
+                System.out.println("Za dużo!");
             }
             if (userNumber < randomNumber) {
-                System.out.println("Za dużo!");
+                System.out.println("Za mało!");
             }
         }
 

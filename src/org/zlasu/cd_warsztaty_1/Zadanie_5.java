@@ -26,7 +26,6 @@ public class Zadanie_5 {
 //        for (Map.Entry<String, Integer> entry : countSameWords.entrySet()) {
 //            System.out.println(entry.getKey() + " = " + entry.getValue());
 //        }
-
     }
 
     private static void sortWordsAndwriteToFile(int max, Path path, Map<String, Integer> countSameWords) {
